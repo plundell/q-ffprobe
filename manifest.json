@@ -1,0 +1,17 @@
+{
+	"name":"ffprobe"
+	,"description":"Wrapper for ffprobe to get information about local and remote resources"
+	,"version":"1.0.0"
+	,"type":"misc"
+	,"main":"./ffprobe.misc.js"
+	,"scope":[
+		"BetterLog"
+		,"BetterUtil.cX.limitString"
+		,"BetterUtil.cX.tryJsonParse"
+		,"BetterUtil.cX.keysToLower"
+		,"BetterUtil.cX.toLower"
+		,"BetterUtil.cX.varType"
+		,"BetterUtil.cpX.execFileInPromise(ffprobe)"
+		,"BetterUtil.cpX.execFileSync(ffprobe)"
+	]
+}
